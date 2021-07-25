@@ -1,0 +1,1444 @@
+/*==================
+  common css start
+==================*/  
+*{
+    padding: 0;
+    margin: 0;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+img{
+    vertical-align: middle;
+}
+.clr{
+    clear: both;
+}
+/*===================
+   common css ends
+===================*/
+
+/*==================
+a new css project 
+==================*/
+/*==================
+    nab ber start
+=================*/
+.manuarea{
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 99999;
+    border-bottom: 1px solid #727277c2;
+}
+.manuarea .manuber{
+    width: 1200px;
+    height: 100px;
+    margin: 0 auto;
+}
+.manuarea .manuber .logo{
+    width: 270px;
+    height: 100px;
+    float: left;
+}
+.manuarea .manuber .logo img{
+    width: 100%;
+    margin: 27px auto;
+}
+.manuarea .manuber .blankpls{
+    width: 160px;
+    height: 100px;
+    float: left;
+}
+.manuarea .manuber .manulist{
+    width: 570px;
+    height: 100px;
+    float: left;
+}
+.manuarea .manuber .manulist ul li{
+float: left;
+position: relative;
+}
+.manuarea .manuber .manulist ul li a{
+    padding: 0 17px;
+    line-height: 100px;
+    color: #fff;
+    display: block;
+}
+.manuarea .manuber .manulist ul li ul{
+    position: absolute;
+    top: 150px;
+    left: 0px;
+    transition: all linear 0.6s ;
+    visibility: hidden;
+    opacity: 0;
+    width: 200px
+}
+.manuarea .manuber .manulist ul li:hover> ul{
+    top: 100px;
+    visibility: visible;
+    opacity: 1;
+}
+.manuarea .manuber .manulist ul li ul li{
+    float: none;
+}
+.manuarea .manuber .manulist ul li ul li a{
+    white-space: nowrap;
+    background-color: rgba(255, 255, 255, 0.281);
+    color: black;
+}
+.manuarea .manuber .manulist ul li:hover> a{
+    transition: all linear 0.6s;
+    color: #eb2f06;
+}
+.manuarea .manuber .manulist ul li ul li:hover> a{
+    background-color: #dfe6e9;
+}
+.manuarea .manuber .bookicon{
+    width: 200px;
+    height: 100px;
+    float: left;
+}
+
+.manuarea .manuber .bookicon a{
+
+    background: #cc1a1a;
+    padding: 0;
+    line-height: 80px;
+    padding: 20px 40px;
+    border-radius: 57px;
+    color:black;
+    transition: all linear 0.5s;
+    text-transform: uppercase;
+    border: 1.5px solid rgb(250, 1, 1);
+
+}
+.manuarea .manuber .bookicon a:hover{
+    background-color: rgba(0, 0, 0, 0.0);
+    color: rgb(253, 0, 0);
+    transition: linear 0.4s;
+}
+
+/*==================
+    nab ber ends
+=================*/
+/*=================
+banner part start
+=================*/
+.bannerarea{
+    width: 100%;
+    height: 800px;
+    background: url(../images/banner-1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.bannerarea .banneroverlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.7);
+}
+.bannerarea .banneroverlay h1{
+    text-align: center;
+    color: rgb(209, 18, 18);
+    padding-top: 350px;
+    font-size: 50px;
+}
+.bannerarea .banneroverlay h3{
+    text-align: center;
+    color: rgb(255, 254, 248);
+    padding-top: 10px;
+    font-size: 34px;
+}
+/*=================
+banner part end
+=================*/
+/*================
+ Discover start
+================*/
+.discoverarea{
+    width: 100%;
+    height: 370px;
+    margin-bottom: 40px;
+    margin-top: 50px;
+}
+.discoverarea .discover{
+    width: 1200px;
+    height: 370px;
+    margin: 0 auto;
+}
+.discoverarea .discover .textdiscover{
+    width: 1200px;
+    height: 120px;
+}
+.discoverarea .discover .textdiscover h2{
+    color: #EA2027;
+    font-size: 45px;
+    text-align: center;
+}
+.discoverarea .discover .textdiscover p{
+    color: #222;
+    font-size: 25px;
+    text-align: center;
+}
+.discoverarea .discover .iconandtext{
+    width: 1200px;
+    height: 250px;
+}
+.discoverarea .discover .iconandtext .sticontext{
+    width: 353px;
+    height: 250px;
+    float: left;
+}
+.discoverarea .discover .iconandtext .sticontext>a img{
+    margin: 10px 140px;
+}
+b{
+    font-size: 30px;
+    color: #222;
+    text-align: center;
+    margin: 10px 120px;
+}
+p{
+    font-size: 17px;
+    color: black;
+    text-align: center;
+}
+.discoverarea .discover .iconandtext .balnkst{
+    width: 71px;
+    height: 250px;
+    float: left;
+}
+.discoverarea .discover .iconandtext .thicontext{
+    width: 353px;
+    height: 250px;
+    float: left;
+}
+.discoverarea .discover .iconandtext .thicontext>a img{
+    margin: 10px 140px;
+}
+.discoverarea .discover .iconandtext .balnkrd{
+    width: 70px;
+    height: 250px;
+    float: left; 
+}
+.discoverarea .discover .iconandtext .rdicontext{
+    width: 353px;
+    height: 250px;
+    float: left;
+}
+.discoverarea .discover .iconandtext .rdicontext>a img{
+    margin: 10px 140px;
+}
+/*================
+ Discover ends
+================*/
+/*=================
+Our Story start
+=================*/
+.OurStoryarea{
+    width: 100%;
+    height: 600px;
+    background-color: rgb(253, 247, 247);
+    margin-bottom: 40px;
+}
+.OurStoryarea .areafix{
+    width: 1200px;
+    height: 600px;
+    margin: 0 auto;
+}
+.OurStoryarea .areafix .OurStoryimg{
+    width: 600px;
+    height: 600px;
+    float: left;
+}
+.OurStoryarea .areafix .OurStoryimg>img{
+    width: 100%;
+    height: 100%;
+    
+}
+.OurStoryarea .areafix .OurStorytext{
+    width: 600px;
+    height: 600px;
+    float: left;
+}
+.OurStoryarea .areafix .OurStorytext>h2{
+    text-align: center;
+    color: crimson;
+    font-size: 45px;
+    margin-top: 150px;
+}
+.OurStoryarea .areafix .OurStorytext>h4{
+    text-align: center;
+    color: rgb(10, 5, 6);
+    font-size: 25px;
+    margin-top: 15px;
+}
+.OurStoryarea .areafix .OurStorytext>p{
+    text-align: center;
+    color: #222;
+    font-size: 15px;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+.OurStoryarea .areafix .OurStorytext .readmore{
+    width: 100px;
+    height: 60px;
+    margin-top: 20px;
+    margin-left: 250px;
+}
+.OurStoryarea .areafix .OurStorytext .readmore>a{
+    border: 2px solid #fa0109;
+    padding: 20px 10px;
+    line-height: 50px;
+    color: #fff;
+    background-color: #EA2027;
+    border-bottom-left-radius: 42%;
+    border-bottom-right-radius: 42%;
+    border-top-left-radius: 42%;
+    border-top-right-radius: 42%;
+}
+.OurStoryarea .areafix .OurStorytext .readmore>a:hover{
+    background-color: #fff;
+    transition: linear 0.4s;
+    color: #EA2027;
+}
+/*=================
+Our Story ends
+=================*/
+/*=================
+Our Menu start
+=================*/
+.OurMenu{
+    width: 100%;
+    height: 700px;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 80px;
+}
+.OurMenu .ourmenuarea{
+    width: 1200px;
+    height: 700px;
+    margin: 0 auto;
+}
+.OurMenu .ourmenuarea .ourmenutext{
+    width: 1200px;
+    height: 120px;
+}
+.OurMenu .ourmenuarea .ourmenutext>h1{
+    font-size: 45px;
+    color: #EA2027;
+    text-align: center;
+    margin-top: 20px;
+}
+.OurMenu .ourmenuarea .ourmenutext>p{
+    font-size: 20px;
+    color: #000;
+    text-align: center;
+    margin-top: 20px;
+}
+.OurMenu .ourmenuarea .balankarea{
+    width: 1200px;
+    height: 30px;
+}
+.OurMenu .ourmenuarea .textmany{
+    width: 1200px;
+    height: 550px;
+}
+.OurMenu .ourmenuarea .textmany .textmayareaa{
+    width: 580px;
+    height: 550px;
+    float: left;
+}
+.OurMenu .ourmenuarea .textmany .textmayareaa .ourfoodsa{
+    width: 580px;
+    height: 170px;
+    border: 1px solid rgb(219, 219, 219);
+}
+.OurMenu .ourmenuarea .textmany .textmayareaa .ourfoodsa:hover{
+    box-shadow: 5px 6px 8px 9px #9da0a571;
+    transition: all linear 0.3s;
+}
+.OurMenu .ourmenuarea .textmany .textmayareaa .ourfoodsa>h1{
+    color: #2c3e50;
+    font-size: 25px;
+    margin-top: 20px;
+    margin-left: 25px;
+    font-family: verdana;
+}
+.OurMenu .ourmenuarea .textmany .textmayareaa .ourfoodsa>p{
+    color: #7f8c8d;
+    font-size: 18px;
+    margin: 20px 25px;
+}
+.OurMenu .ourmenuarea .textmany .textmayareaa .balnks{
+    width: 580px;
+    height: 15px;
+}
+.OurMenu .ourmenuarea .textmany .textmayareaa  .ourfoodsb{
+    width: 580px;
+    height: 170px;
+    border: 1px solid rgb(219, 219, 219);
+}
+.OurMenu .ourmenuarea .textmany .textmayareaa .ourfoodsb:hover{
+    box-shadow: 5px 6px 8px 9px #9da0a571;
+    transition: all linear 0.3s;
+}
+.OurMenu .ourmenuarea .textmany .textmayareaa  .ourfoodsb>h1{
+    color: #2c3e50;
+    font-size: 25px;
+    margin-top: 20px;
+    margin-left: 25px;
+    font-family: verdana;
+}
+.OurMenu .ourmenuarea .textmany .textmayareaa  .ourfoodsb>p{    
+    color: #7f8c8d;
+    font-size: 18px;
+    margin: 20px 25px;
+}
+.OurMenu .ourmenuarea .textmany .textmayareaa .blanksa{
+    width: 580px;
+    height: 15px;
+}
+.OurMenu .ourmenuarea .textmany .textmayareaa .ourfoodsc{
+    width: 580px;
+    height: 170px;
+    border: 1px solid rgb(219, 219, 219);
+}
+.OurMenu .ourmenuarea .textmany .textmayareaa .ourfoodsc:hover{
+    box-shadow: 5px 6px 8px 9px #9da0a571;
+    transition: all linear 0.3s;
+}
+.OurMenu .ourmenuarea .textmany .textmayareaa .ourfoodsc>h1{
+    color: #2c3e50;
+    font-size: 25px;
+    margin-top: 20px;
+    margin-left: 25px;
+    font-family: verdana;
+}
+.OurMenu .ourmenuarea .textmany .textmayareaa .ourfoodsc>p{
+    color: #7f8c8d;
+    font-size: 18px;
+    margin: 20px 25px;
+}
+.OurMenu .ourmenuarea .textmany .textmayareab{
+    width: 40px;
+    height: 550px;
+    float: left;
+}
+.OurMenu .ourmenuarea .textmany .textmayareac{
+    width: 580px;
+    height: 550px;
+    float: left;
+}
+.OurMenu .ourmenuarea .textmany .textmayareac .manya{
+    width: 580px;
+    height: 170px;
+    border: 1px solid rgb(219, 219, 219);
+}
+.OurMenu .ourmenuarea .textmany .textmayareac .manya:hover{
+    box-shadow: 5px 6px 8px 9px #9da0a571;
+    transition: all linear 0.3s;
+}
+.OurMenu .ourmenuarea .textmany .textmayareac .manya>h1{
+    color: #2c3e50;
+    font-size: 25px;
+    margin-top: 20px;
+    margin-left: 25px;
+    font-family: verdana;
+}
+.OurMenu .ourmenuarea .textmany .textmayareac .manya>p{
+    color: #7f8c8d;
+    font-size: 18px;
+    margin: 20px 25px;
+}
+.OurMenu .ourmenuarea .textmany .textmayareac .balnk{
+    width: 580px;
+    height: 15px;
+}
+.OurMenu .ourmenuarea .textmany .textmayareac .manyb{
+    width: 580px;
+    height: 170px;
+    border: 1px solid rgb(219, 219, 219);
+}
+.OurMenu .ourmenuarea .textmany .textmayareac .manyb:hover{
+    box-shadow: 5px 6px 8px 9px #9da0a571;
+    transition: all linear 0.3s;
+}
+.OurMenu .ourmenuarea .textmany .textmayareac .manyb>h1{
+    color: #2c3e50;
+    font-size: 25px;
+    margin-top: 20px;
+    margin-left: 25px;
+    font-family: verdana;
+}
+.OurMenu .ourmenuarea .textmany .textmayareac .manyb>p{
+    color: #7f8c8d;
+    font-size: 18px;
+    margin: 20px 25px;
+}
+.OurMenu .ourmenuarea .textmany .textmayareac .blanka{
+    width: 580px;
+    height: 15px;
+}
+.OurMenu .ourmenuarea .textmany .textmayareac .manyc{
+    width: 580px;
+    height: 170px;
+    border: 1px solid rgb(219, 219, 219);
+}
+.OurMenu .ourmenuarea .textmany .textmayareac .manyc:hover{
+    box-shadow: 5px 6px 8px 9px #9da0a571;
+    transition: all linear 0.3s;
+}
+.OurMenu .ourmenuarea .textmany .textmayareac .manyc>h1{
+    color: #2c3e50;
+    font-size: 25px;
+    margin-top: 20px;
+    margin-left: 25px;
+    margin-right: 10px;
+    font-family: verdana;
+}   
+.OurMenu .ourmenuarea .textmany .textmayareac .manyc>p{
+    color: #7f8c8d;
+    font-size: 18px;
+    margin: 20px 25px;
+}
+.OurMenu .ourmenuarea .textmany span{
+    font-size: 24px;
+    color: #cc1a1a;
+}
+/*=================
+Our Menu end
+=================*/
+/*================
+banner frome start
+================*/
+#banner{
+    width: 100%;
+    height: 650px;
+    background: url(../images/restaurant.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 45px;
+}
+#banner #banneroverlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.767);
+}
+#banner #banneroverlay .bannerblanksite{
+    width: 1200px;
+    height: 100px;
+    margin: 0 auto;
+}
+#banner #banneroverlay .banneroverlaytexta{
+    width: 1200px;
+    height: 120px;
+    margin: 0 auto;
+}
+#banner #banneroverlay .banneroverlaytexta>h3{
+    color: #d63031;
+    text-align: center;
+    font-size: 50px;
+}
+#banner #banneroverlay .banneroverlaytexta>h4{
+    color: #dfe6e9;
+    text-align: center;
+    font-size: 35px;
+    margin-top: 20px;
+}
+#banner #banneroverlay form .bannerform{
+    width: 1200px;
+    height: 300px;
+    margin: 0 auto;
+    position: relative;
+}
+#banner #banneroverlay form .bannerform .name>input{
+    width: 380px;
+    height: 50px;
+    position: absolute;
+    left: -5px;
+    top: 30px;
+    background: #ffffff00;
+    color: #ffffff;
+    font-size: 20px;
+    padding-left: 10px;
+}
+#banner #banneroverlay form .bannerform .email>input{
+    width: 380px;
+    height: 50px;
+    position: absolute;
+    left: 405px;
+    top: 30px;
+    background: #ffffff00;
+    color: #ffffff;
+    font-size: 20px;
+    padding-left: 10px;
+}
+#banner #banneroverlay form .bannerform .phoneno>input{
+    width: 380px;
+    height: 50px;
+    position: absolute;
+    right: -10px;
+    top: 30px;
+    background: #ffffff00;
+    color: #ffffff;
+    font-size: 20px;
+    padding-left: 10px;
+}
+#banner #banneroverlay form .bannerform .time>input{
+    width: 380px;
+    height: 50px;
+    position: absolute;
+    left: -5px;
+    top: 110px;
+    background: #ffffff00;
+    color: #ffffff;
+    font-size: 20px;
+    padding-left: 10px;
+}
+#banner #banneroverlay form .bannerform .date>input{
+    width: 380px;
+    height: 50px;
+    position: absolute;
+    left: 405px;
+    top: 110px;
+    background: #ffffff00;
+    color: #ffffff;
+    font-size: 20px;
+    padding-left: 10px;
+}
+#banner #banneroverlay form .bannerform .guest>input{
+    width: 380px;
+    height: 50px;
+    position: absolute;
+    right: -10px;
+    top: 110px;
+    background: #ffffff00;
+    color: #ffffff;
+    font-size: 20px;
+    padding-left: 10px;
+}
+#banner #banneroverlay form .bannerform .booknow>button{
+    width: 150px;
+    height: 50px;
+    background: #d02529;
+    padding: 12px 38px;
+    border-radius: 50px;
+    display: inline-block;
+    color: #fff;
+    border: 2px solid #d02529;
+    position: absolute;
+    left: 525px;
+    bottom: 30px;
+}
+#banner #banneroverlay form .bannerform .booknow>button>p{
+    font-size: 15px;
+    color: #ffffff;
+}
+#banner #banneroverlay form .bannerform .booknow>button:hover{
+    background: none;
+    transition: all linear 0.3s;
+}
+#banner #banneroverlay form .bannerform .booknow>button>p:hover{
+    color: #d63031;
+    transition: all linear 0.3s;
+}
+/*================
+banner frome start
+================*/
+/*================
+our team start
+================*/
+.ourteamarea{
+    width: 100%;
+    height: 600px;
+    margin-bottom: 50px;
+}
+.ourteamarea .ourteam{
+    width: 1200px;
+    height: 600px;
+    margin: 0 auto;
+}
+.ourteamarea .ourteam .ourteamtext{
+    width: 1200px;
+    height: 100px;
+}
+.ourteamarea .ourteam .ourteamtext>h1{
+    color: #e74c3c;
+    font-size: 45px;
+    text-align: center;
+}
+.ourteamarea .ourteam .ourteamtext>h2{
+    color: #2c3e50;
+    font-size: 25px;
+    text-align: center;
+    margin: 10px 0;
+}
+.ourteamarea .ourteam .ourteamblank{
+    width: 1200px;
+    height: 50px;
+}
+.ourteamarea .ourteam .ourteamphoto{
+    width: 1200px;
+    height: 450px;
+}
+.ourteamarea .ourteam .ourteamphoto .phototexta{
+    width: 277px;
+    height: 450px;
+    float: left;
+    position: relative;
+    overflow: hidden;
+}
+.ourteamarea .ourteam .ourteamphoto .phototexta .imgoverlay{
+    width: 277px;
+    height: 370px;
+    background-color: #0000005e;
+    position: absolute;
+    top: 0px;
+    left: -100%;
+    transition: all linear 0.4s;
+    opacity: 0;
+}
+.ourteamarea .ourteam .ourteamphoto .phototexta:hover .imgoverlay{
+    left: 0px;
+    opacity: 1;
+}
+.ourteamarea .ourteam .ourteamphoto .blankplsa{
+    width: 30px;
+    height: 450px;
+    float: left;
+}
+.ourteamarea .ourteam .ourteamphoto .phototextb{
+    width: 277px;
+    height: 450px;
+    float: left;
+    position: relative;
+    overflow: hidden;
+}
+.ourteamarea .ourteam .ourteamphoto .phototextb .imgoverlay{
+    width: 277px;
+    height: 370px;
+    background-color: #0000005e;
+    position: absolute;
+    top: 0px;
+    left: -100%;
+    transition: all linear 0.4s;
+    opacity: 0;
+}
+.ourteamarea .ourteam .ourteamphoto .phototextb:hover .imgoverlay{
+    left: 0px;
+    opacity: 1;
+}
+.ourteamarea .ourteam .ourteamphoto .blankplsb{
+    width: 30px;
+    height: 450px;
+    float: left;
+}
+.ourteamarea .ourteam .ourteamphoto .phototextc{
+    width: 277px;
+    height: 450px;
+    float: left;
+    position: relative;
+    overflow: hidden;
+}
+.ourteamarea .ourteam .ourteamphoto .phototextc .imgoverlay{
+    width: 277px;
+    height: 370px;
+    background-color: #0000005e;
+    position: absolute;
+    top: 0px;
+    left: -100%;
+    transition: all linear 0.4s;
+    opacity: 0;
+}
+.ourteamarea .ourteam .ourteamphoto .phototextc:hover .imgoverlay{
+    left: 0px;
+    opacity: 1;
+}
+.ourteamarea .ourteam .ourteamphoto .blankplsc{
+    width: 30px;
+    height: 450px;
+    float: left;
+}
+.ourteamarea .ourteam .ourteamphoto .phototextd{
+    width: 278px;
+    height: 450px;
+    float: left;
+    position: relative;
+    overflow: hidden;
+}
+.ourteamarea .ourteam .ourteamphoto .phototextd .imgoverlay{
+    width: 277px;
+    height: 370px;
+    background-color: #0000005e;
+    position: absolute;
+    top: 0px;
+    left: -100%;
+    transition: all linear 0.4s;
+    opacity: 0;
+}
+.ourteamarea .ourteam .ourteamphoto .phototextd:hover .imgoverlay{
+    left: 0px;
+    opacity: 1;
+}
+a>h4{
+    text-align: center;
+    color: #c0392b;
+    font-size: 30px;
+}
+p{
+    text-align: center;
+    color: #2c3e50;
+    font-size: 20px;
+}
+/*================
+our team ends
+================*/
+/*================
+our blog start 
+================*/
+.ourblog{
+    width: 100%;
+    height: 800px;
+    background-color: #f1f2f6;
+    margin-bottom: 50px;
+}
+.ourblog .ourblogarea{
+    width: 1200px;
+    height: 800px;
+    margin: 0 auto;
+}
+.ourblog .ourblogarea .imgtextblank{
+    width: 1200px;
+    height: 60px;
+}
+.ourblog .ourblogarea .ourblogtext{
+    width: 1200px;
+    height: 100px;
+}
+.ourblog .ourblogarea .ourblogtext>h4{
+    text-align: center;
+    color: #e84118;
+    font-size: 45px;
+}
+.ourblog .ourblogarea .ourblogtext>p{
+    text-align: center;
+    color: #2f3640;
+    font-size: 20px;
+}
+.ourblog .ourblogarea .ourblogimgandtext{
+    width: 1200px;
+    height: 550px;
+    position: relative;
+}
+.ourblog .ourblogarea .ourblogimgandtext .imgandtexta{
+    width: 580px;
+    height: 200px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    background-color: #ffffff;
+}
+.ourblog .ourblogarea .ourblogimgandtext .imgandtexta .imga{
+    width: 200px;
+    height: 250px;
+    float: left;
+}
+.ourblog .ourblogarea .ourblogimgandtext .imgandtexta .texta{
+    width: 380px;
+    height: 200px;
+    float: left;
+}
+.ourblog .ourblogarea .ourblogimgandtext .imgandtexta .texta>h3{
+    color: #e84118;
+    font-size: 20px;
+    text-align: center;
+    margin: 10px 10px;
+}
+.ourblog .ourblogarea .ourblogimgandtext .imgandtexta .texta>h4{
+    color: #1d232c;
+    font-size: 18px;
+    text-align: center;
+}
+.ourblog .ourblogarea .ourblogimgandtext .imgandtexta .texta>p{
+    color: #130f40;
+    font-size: 16px;
+    text-align: center;
+    margin: 10px 10px;
+}
+.ourblog .ourblogarea .ourblogimgandtext .imgandtextb{
+    width: 580px;
+    height: 200px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    background-color: #ffffff;
+}
+.ourblog .ourblogarea .ourblogimgandtext .imgandtextb .imgb{
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+.ourblog .ourblogarea .ourblogimgandtext .imgandtextb .textb{
+    width: 380px;
+    height: 200px;
+    float: left;
+}
+.ourblog .ourblogarea .ourblogimgandtext .imgandtextb .textb>h3{
+    color: #e84118;
+    font-size: 20px;
+    text-align: center;
+    margin: 10px 10px;
+}
+.ourblog .ourblogarea .ourblogimgandtext .imgandtextb .textb>h4{
+    color: #1d232c;
+    font-size: 18px;
+    text-align: center;
+    margin: 10px 10px;
+}
+.ourblog .ourblogarea .ourblogimgandtext .imgandtextb .textb>p{
+    color: #130f40;
+    font-size: 16px;
+    text-align: center;
+}
+.ourblog .ourblogarea .ourblogimgandtext .imgandtextc{
+    width: 580px;
+    height: 200px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background-color: #ffffff;
+}
+.ourblog .ourblogarea .ourblogimgandtext .imgandtextc .imgc{
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+.ourblog .ourblogarea .ourblogimgandtext .imgandtextc .textc{
+    width: 380px;
+    height: 200px;
+    float: left;
+}
+.ourblog .ourblogarea .ourblogimgandtext .imgandtextc .textc>h3{
+    color: #e84118;
+    font-size: 20px;
+    text-align: center;
+    margin: 10px 10px;
+}
+.ourblog .ourblogarea .ourblogimgandtext .imgandtextc .textc>h4{
+    color: #1d232c;
+    font-size: 18px;
+    text-align: center;
+    margin: 10px 10px;
+}
+.ourblog .ourblogarea .ourblogimgandtext .imgandtextc .textc>p{
+    color: #130f40;
+    font-size: 16px;
+    text-align: center;
+}
+.ourblog .ourblogarea .ourblogimgandtext .imgandtextd{
+    width: 580px;
+    height: 200px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    background-color: #ffffff;
+}
+.ourblog .ourblogarea .ourblogimgandtext .imgandtextd .imgd{
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+.ourblog .ourblogarea .ourblogimgandtext .imgandtextd .textd{
+    width: 380px;
+    height: 200px;
+    float: left;
+}
+.ourblog .ourblogarea .ourblogimgandtext .imgandtextd .textd>h3{
+    color: #e84118;
+    font-size: 20px;
+    text-align: center;
+    margin: 10px 10px;
+}
+.ourblog .ourblogarea .ourblogimgandtext .imgandtextd .textd>h4{
+    color: #1d232c;
+    font-size: 18px;
+    text-align: center;
+    margin: 10px 10px;
+}
+.ourblog .ourblogarea .ourblogimgandtext .imgandtextd .textd>p{
+    color: #130f40;
+    font-size: 16px;
+    text-align: center;
+}
+/*================
+our blog start 
+================*/
+/*=====================
+a mane food revew start
+=====================*/
+.amanerevew{
+    width: 100%;
+    height: 450px;
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+.amanerevew .amanrevewarea{
+    width: 1200px;
+    height: 450px;
+    margin: 0 auto;
+    position: relative;
+}
+.amanerevew .amanrevewarea .amanimg{
+    width: 462px;
+    height: 428px;
+    position: absolute;
+    left: 110px;
+    bottom: 0px;
+}
+.amanerevew .amanrevewarea .amanimg>img{
+    width: 100%;
+}
+.amanerevew .amanrevewarea .amantext{
+    width: 600px;
+    height: 250px;
+    background-color: rgb(214, 42, 42);
+    position: absolute;
+    right: 110px;
+    bottom: 90px;
+}
+.amanerevew .amanrevewarea .amantext>i{
+    font-size: 20px;
+    color: #ced6e0;
+    margin-top: 25px;
+    position: absolute;
+    top: 0px;
+    left: 280px;
+    font-size: 40px;
+}
+.amanerevew .amanrevewarea .amantext>p{
+    font-size: 15px;
+    color: #dfe4ea;
+    text-align: center;
+    margin-top: 80px;
+}
+.amanerevew .amanrevewarea .amantext>h4{
+    font-size: 22px;
+    color: #ced6e0;
+    text-align: center;
+    position: absolute;
+    bottom: 50px;
+    left: 200px;
+}
+/*=====================
+a mane food revew ends
+=====================*/
+/*=======================
+    porgress ber start
+=======================*/
+.pogress{
+    width: 100%;
+    height: 600px;
+    margin-top: 50px;
+    background-color: rgb(245, 241, 224);
+} 
+.pogress .pogress-text{
+    width: 1200px;
+    height: 600px;
+    margin: 0 auto;
+    position: relative;
+}
+.pogress .pogress-text .prog-textber{
+    width: 500px;
+    height: 600px;;
+    float: left;
+}
+.pogress .pogress-text .prog-textber>h3{
+    font-size: 40px;
+    color: #222;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.pogress .pogress-text .prog-textber>p{
+    font-size: 20px;
+    color: rgb(95, 93, 93);
+    text-align: left;
+    margin-bottom: 25px;
+}
+.pogress .pogress-text .prog-textber .click{
+    width: 110px;
+    height: 50px;
+    border: 1px solid rgb(255, 0, 0);
+    background-color: rgba(251, 45, 45, 0.931);
+    box-sizing: border-box;
+    margin: 60px auto;
+    animation: button1 2s linear infinite;
+}
+@keyframes button1{
+    0%,100%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.2);
+    }
+}
+.pogress .pogress-text .prog-textber .click a>p{
+    margin: 12px 20px;
+    color: rgb(245, 241, 224);;
+}
+.pogress .pogress-text .pogress-ber{
+    width: 600px;
+    height: 600px;
+    float: right;
+}
+.pogress .pogress-text .pogress-ber>h3{
+    font-size: 40px;
+    color: #222;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.pogress .pogress-text .pogress-ber ul li{
+    width: 600px;
+    height: 30px;
+    border: 2px solid transparent;
+    margin-bottom: 15px;
+    position: relative;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 16px;
+    color: rgb(255, 0, 0);
+    font-family: fantasy;
+}
+.pogress .pogress-text .pogress-ber ul li:first-child{
+    border-color: #ff6600;
+}
+.pogress .pogress-text .pogress-ber ul li:first-child::before{
+    content: '';
+    width: 0%;
+    height: 100%;
+    background-color: #d35400b4;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    animation: run1 1.5s  linear forwards;
+}
+@keyframes run1{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 75%;
+    }
+}
+.pogress .pogress-text .pogress-ber ul li:nth-child(2){
+    border-color: #0080ff;
+}
+.pogress .pogress-text .pogress-ber ul li:nth-child(2)::before{
+    content: '';
+    width: 0%;
+    height: 100%;
+    background-color: #046acfca;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    animation: run2 1.5s  linear forwards;
+}
+@keyframes run2{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 45%;
+    }
+}
+.pogress .pogress-text .pogress-ber ul li:nth-child(3){
+    border-color: #351cf0;
+}
+.pogress .pogress-text .pogress-ber ul li:nth-child(3)::before{
+    content: '';
+    width: 0%;
+    height: 100%;
+    background-color: #6c5ce7d2;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    animation: run3 1.5s  linear forwards;
+}
+@keyframes run3{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 85%;
+    }
+}
+.pogress .pogress-text .pogress-ber ul li:nth-child(4){
+    border-color: #ffee00;
+}
+.pogress .pogress-text .pogress-ber ul li:nth-child(4)::before{
+    content: '';
+    height: 100%;
+    background-color: #ffee00c7;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    animation: run4 1.5s  linear forwards;
+}
+@keyframes run4{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 55%;
+    }
+}
+.pogress .pogress-text .pogress-ber ul li:nth-child(5){
+    border-color: #3867d6;
+}
+.pogress .pogress-text .pogress-ber ul li:nth-child(5)::before{
+    content: '';
+    height: 100%;
+    background-color: #3867d6;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    animation: run5 1.5s  linear forwards;
+}
+@keyframes run5{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 35%;
+    }
+}
+.pogress .pogress-text .pogress-ber ul li:last-child{
+    border-color: #b232e9;
+}
+.pogress .pogress-text .pogress-ber ul li:last-child::before{
+    content: '';
+    height: 100%;
+    background-color: #8d44ade0;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    animation: run6 1.5s linear forwards;
+}
+@keyframes run6{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 65%;
+    }
+}
+.pogress .pogress-text .pogress-ber>p{
+    font-size: 20px;
+    color: rgb(95, 93, 93);
+    text-align: left;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+/*=======================
+    porgress ber start
+=======================*/
+/*====================
+last manu banner start
+====================*/
+.lastmanubanner{
+    width: 100%;
+    height: 600px;
+    background: url(../images/footer-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.lastmanubanner .overlay{
+    width: 100%;
+    height: 600px;
+    background-color: #000000e3;
+    position: relative;
+}
+.lastmanubanner .overlay .endmanuarea{
+    width: 1200px;
+    height: 600px;
+    margin: 0 auto;
+    position: relative;
+}
+.lastmanubanner .overlay .endmanuarea .endmanuform{
+    width: 1200px;
+    height: 150px;
+    border: 1px solid #48535fce;
+    position: absolute;
+    top: 50px;
+    left: 0px;
+    box-sizing: border-box;
+}
+.lastmanubanner .overlay .endmanuarea .endmanuform>p{
+    font-size: 25px;
+    color: #c8d6e5;
+    font-family: sans-serif;
+    position: absolute;
+    top: 60px;
+    left: 100px;
+}
+.lastmanubanner .overlay .endmanuarea .endmanuform form >input{
+    width: 400px;
+    height: 50px;
+    background: #ffffff00;
+    color: #ffffff;
+    font-size: 20px;
+    position: absolute;
+    top: 50px;
+    right: 100px;
+    padding-left: 10px;
+}
+.lastmanubanner .overlay .endmanuarea .logoandtext{
+    width: 512px;
+    height: 213px;
+    position: absolute;
+    top: 250px;
+    left: 0px;
+}
+.lastmanubanner .overlay .endmanuarea .logoandtext .endslogo{
+    width: 270px;
+    height: 44px;
+    position: absolute;
+    left: 20px;
+    top: 10px;
+}
+.lastmanubanner .overlay .endmanuarea .logoandtext .endstext{
+    width: 300px;
+    height: 120px;
+    position: absolute;
+    left: 20px;
+    top: 64px;
+    text-transform: capitalize;
+}
+.lastmanubanner .overlay .endmanuarea .logoandtext .endstext>p{
+    color: #576574;
+    font-size: 14px;
+}
+.lastmanubanner .overlay .endmanuarea .logoandtext .endsicon{
+    width: 180px;
+    height: 40px;
+    position: absolute;
+    left: 20px;
+    bottom: 25px;
+}
+.lastmanubanner .overlay .endmanuarea .logoandtext .endsicon a>i{
+    color: #c8d6e5;
+    font-size: 30px;
+    margin: 5px 6px;
+    transition: all linear 0.4s;
+}
+.lastmanubanner .overlay .endmanuarea .logoandtext .endsicon a>i:hover{
+    color: #eb2f06;
+}
+.lastmanubanner .overlay .endmanuarea .otherssitearea{
+    width: 680px;
+    height: 215px;
+    position: absolute;
+    right: 0px;
+    bottom: 130px;
+    background-color: #71809338;
+}
+.lastmanubanner .overlay .endmanuarea .otherssitearea .othersitea{
+    width: 227px;
+    height: 215px;
+    float: left;
+}
+.lastmanubanner .overlay .endmanuarea .otherssitearea .othersitea>h4{
+    color: #f5f6fa;
+    font-size: 18px;
+    margin: 20px 15px;
+}
+.lastmanubanner .overlay .endmanuarea .otherssitearea .othersitea ul li >a{
+    color: #7f8fa6;
+    font-size: 16px;
+    margin: 15px 15px;
+    display: block;
+    transition: all linear 0.3s;
+}
+.lastmanubanner .overlay .endmanuarea .otherssitearea .othersitea ul li >a:hover{
+    color: #c23616;
+}
+.lastmanubanner .overlay .endmanuarea .otherssitearea .othersiteb{
+    width: 226px;
+    height: 215px;
+    float: left;
+}
+.lastmanubanner .overlay .endmanuarea .otherssitearea .othersiteb>h4{
+    color: #f5f6fa;
+    font-size: 18px;
+    margin: 20px 15px;
+}
+.lastmanubanner .overlay .endmanuarea .otherssitearea .othersiteb ul li >a{
+    color: #7f8fa6;
+    font-size: 16px;
+    margin: 15px 15px;
+    display: block;
+    transition: all linear 0.3s;
+}
+.lastmanubanner .overlay .endmanuarea .otherssitearea .othersiteb ul li >a:hover{
+    color: #c23616;
+}
+.lastmanubanner .overlay .endmanuarea .otherssitearea .othersitec{
+    width: 227px;
+    height: 215px;
+    float: left;
+}
+.lastmanubanner .overlay .endmanuarea .otherssitearea .othersitec>h4{
+    color: #f5f6fa;
+    font-size: 18px;
+    margin: 20px 15px;
+}
+.lastmanubanner .overlay .endmanuarea .otherssitearea .othersitec ul li >a{
+    color: #7f8fa6;
+    font-size: 16px;
+    margin: 15px 15px;
+    display: block;
+    transition: all linear 0.3s;
+}
+.lastmanubanner .overlay .endmanuarea .otherssitearea .othersitec ul li >a:hover{
+    color: #c23616;
+}
+.lastmanubanner .overlay .endmanuarea .copyrightber{
+    width: 1200px;
+    height: 75px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    border-top: 1px solid #616c6e;
+    box-sizing: border-box;
+} 
+.lastmanubanner .overlay .endmanuarea .copyrightber .coprtext {
+    width: 1200px;
+    height: 20px;
+    position: absolute;
+    bottom: 30px;
+    left: 0px;
+}
+.lastmanubanner .overlay .endmanuarea .copyrightber .coprtext>h4{
+    text-align: center;
+    color: #7f8fa6;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15px;
+}
+.lastmanubanner .overlay .endmanuarea .copyrightber .coprtext h4>a{
+    color: #d02529;
+}
+/*====================
+last manu banner start
+====================*/
+/*==================
+a new css project 
+==================*/

@@ -137,6 +137,7 @@ banner part start
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    background-attachment: fixed;
 }
 .bannerarea .banneroverlay{
     width: 100%;
@@ -525,6 +526,7 @@ banner frome start
     background-position: center;
     background-size: cover;
     margin-bottom: 45px;
+    background-attachment: fixed;
 }
 #banner #banneroverlay{
     width: 100%;
@@ -849,6 +851,22 @@ our blog start
     width: 200px;
     height: 250px;
     float: left;
+}
+.ourblog .ourblogarea .ourblogimgandtext .imgandtexta .imga a>img:hover{
+    transform: scale(1.05);
+    transition: all linear 0.5s;
+}
+.ourblog .ourblogarea .ourblogimgandtext .imgandtextb .imgb a>img:hover{
+    transform: scale(1.05);
+    transition: all linear 0.5s;
+}
+.ourblog .ourblogarea .ourblogimgandtext .imgandtextc .imgc a>img:hover{
+    transform: scale(1.05);
+    transition: all linear 0.5s;
+}
+.ourblog .ourblogarea .ourblogimgandtext .imgandtextd .imgd a>img:hover{
+    transform: scale(1.05);
+    transition: all linear 0.5s;
 }
 .ourblog .ourblogarea .ourblogimgandtext .imgandtexta .texta{
     width: 380px;
@@ -1260,6 +1278,7 @@ last manu banner start
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    background-attachment: fixed;
 }
 .lastmanubanner .overlay{
     width: 100%;

@@ -998,65 +998,6 @@ our blog start
 /*================
 our blog start 
 ================*/
-/*=====================
-a mane food revew start
-=====================*/
-.amanerevew{
-    width: 100%;
-    height: 450px;
-    margin-top: 30px;
-    margin-bottom: 0px;
-}
-.amanerevew .amanrevewarea{
-    width: 1200px;
-    height: 450px;
-    margin: 0 auto;
-    position: relative;
-}
-.amanerevew .amanrevewarea .amanimg{
-    width: 462px;
-    height: 428px;
-    position: absolute;
-    left: 110px;
-    bottom: 0px;
-}
-.amanerevew .amanrevewarea .amanimg>img{
-    width: 100%;
-}
-.amanerevew .amanrevewarea .amantext{
-    width: 600px;
-    height: 250px;
-    background-color: rgb(214, 42, 42);
-    position: absolute;
-    right: 110px;
-    bottom: 90px;
-}
-.amanerevew .amanrevewarea .amantext>i{
-    font-size: 20px;
-    color: #ced6e0;
-    margin-top: 25px;
-    position: absolute;
-    top: 0px;
-    left: 280px;
-    font-size: 40px;
-}
-.amanerevew .amanrevewarea .amantext>p{
-    font-size: 15px;
-    color: #dfe4ea;
-    text-align: center;
-    margin-top: 80px;
-}
-.amanerevew .amanrevewarea .amantext>h4{
-    font-size: 22px;
-    color: #ced6e0;
-    text-align: center;
-    position: absolute;
-    bottom: 50px;
-    left: 200px;
-}
-/*=====================
-a mane food revew ends
-=====================*/
 /*=======================
     porgress ber start
 =======================*/
@@ -1064,7 +1005,7 @@ a mane food revew ends
     width: 100%;
     height: 600px;
     margin-top: 50px;
-    background-color: rgb(245, 241, 224);
+    background-color: rgba(243, 234, 225, 0.5);
 } 
 .pogress .pogress-text{
     width: 1200px;
@@ -1268,6 +1209,65 @@ a mane food revew ends
 /*=======================
     porgress ber start
 =======================*/
+/*=====================
+a mane food revew start
+=====================*/
+.amanerevew{
+    width: 100%;
+    height: 450px;
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+.amanerevew .amanrevewarea{
+    width: 1200px;
+    height: 450px;
+    margin: 0 auto;
+    position: relative;
+}
+.amanerevew .amanrevewarea .amanimg{
+    width: 462px;
+    height: 428px;
+    position: absolute;
+    left: 110px;
+    bottom: 0px;
+}
+.amanerevew .amanrevewarea .amanimg>img{
+    width: 100%;
+}
+.amanerevew .amanrevewarea .amantext{
+    width: 600px;
+    height: 250px;
+    background-color: rgb(214, 42, 42);
+    position: absolute;
+    right: 110px;
+    bottom: 90px;
+}
+.amanerevew .amanrevewarea .amantext>i{
+    font-size: 20px;
+    color: #ced6e0;
+    margin-top: 25px;
+    position: absolute;
+    top: 0px;
+    left: 280px;
+    font-size: 40px;
+}
+.amanerevew .amanrevewarea .amantext>p{
+    font-size: 15px;
+    color: #dfe4ea;
+    text-align: center;
+    margin-top: 80px;
+}
+.amanerevew .amanrevewarea .amantext>h4{
+    font-size: 22px;
+    color: #ced6e0;
+    text-align: center;
+    position: absolute;
+    bottom: 50px;
+    left: 200px;
+}
+/*=====================
+a mane food revew ends
+=====================*/
 /*====================
 last manu banner start
 ====================*/

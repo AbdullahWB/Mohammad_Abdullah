@@ -1005,7 +1005,7 @@ our blog start
     width: 100%;
     height: 600px;
     margin-top: 50px;
-    background-color: rgba(243, 234, 225, 0.5);
+    background-color: rgb(248, 247, 247);
 } 
 .pogress .pogress-text{
     width: 1200px;
@@ -1050,8 +1050,13 @@ our blog start
 }
 .pogress .pogress-text .prog-textber .click a>p{
     margin: 12px 20px;
-    color: rgb(245, 241, 224);;
+    color: rgb(245, 241, 224);
 }
+
+/*============================
+click end===================
+===========================*/
+
 .pogress .pogress-text .pogress-ber{
     width: 600px;
     height: 600px;
@@ -1066,8 +1071,8 @@ our blog start
 }
 .pogress .pogress-text .pogress-ber ul li{
     width: 600px;
-    height: 30px;
-    border: 2px solid transparent;
+    height: 40px;
+    border: 1px solid transparent;
     margin-bottom: 15px;
     position: relative;
     box-sizing: border-box;
@@ -1075,19 +1080,24 @@ our blog start
     font-size: 16px;
     color: rgb(255, 0, 0);
     font-family: fantasy;
+    border-radius: 20px;
 }
 .pogress .pogress-text .pogress-ber ul li:first-child{
-    border-color: #ff6600;
+    border-color: #2ed573;
 }
 .pogress .pogress-text .pogress-ber ul li:first-child::before{
-    content: '';
+    content: '75%';
     width: 0%;
     height: 100%;
-    background-color: #d35400b4;
+    background-color: #2ed573;
     position: absolute;
     top: 0px;
     left: 0px;
-    animation: run1 1.5s  linear forwards;
+    animation: run1 2.7s linear forwards;
+    color: #fff;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 40px;
 }
 @keyframes run1{
     0%{
@@ -1098,17 +1108,21 @@ our blog start
     }
 }
 .pogress .pogress-text .pogress-ber ul li:nth-child(2){
-    border-color: #0080ff;
+    border-color: #1e90ff;
 }
 .pogress .pogress-text .pogress-ber ul li:nth-child(2)::before{
-    content: '';
+    content: '45%';
     width: 0%;
     height: 100%;
-    background-color: #046acfca;
+    background-color: #1e90ff;
     position: absolute;
     top: 0px;
     left: 0px;
-    animation: run2 1.5s  linear forwards;
+    animation: run2 2.7s linear forwards;
+    color: #fff;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 40px;
 }
 @keyframes run2{
     0%{
@@ -1119,17 +1133,21 @@ our blog start
     }
 }
 .pogress .pogress-text .pogress-ber ul li:nth-child(3){
-    border-color: #351cf0;
+    border-color: #ff4757;
 }
 .pogress .pogress-text .pogress-ber ul li:nth-child(3)::before{
-    content: '';
+    content: '85%';
     width: 0%;
     height: 100%;
-    background-color: #6c5ce7d2;
+    background-color: #ff4757;
     position: absolute;
     top: 0px;
     left: 0px;
-    animation: run3 1.5s  linear forwards;
+    animation: run3 2.7s linear forwards;
+    color: #fff;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 40px;
 }
 @keyframes run3{
     0%{
@@ -1140,16 +1158,20 @@ our blog start
     }
 }
 .pogress .pogress-text .pogress-ber ul li:nth-child(4){
-    border-color: #ffee00;
+    border-color: #d10b0b;
 }
 .pogress .pogress-text .pogress-ber ul li:nth-child(4)::before{
-    content: '';
+    content: '55%';
     height: 100%;
-    background-color: #ffee00c7;
+    background-color: #d63030da;
     position: absolute;
     top: 0px;
     left: 0px;
-    animation: run4 1.5s  linear forwards;
+    animation: run4 2.7s linear forwards;
+    color: #fff;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 40px;
 }
 @keyframes run4{
     0%{
@@ -1159,17 +1181,21 @@ our blog start
         width: 55%;
     }
 }
-.pogress .pogress-text .pogress-ber ul li:nth-child(5){
-    border-color: #3867d6;
+.pogress .pogress-text .pogress-ber ul li:nth-child(4){
+    border-color: #57606f;
 }
-.pogress .pogress-text .pogress-ber ul li:nth-child(5)::before{
-    content: '';
+.pogress .pogress-text .pogress-ber ul li:nth-child(4)::before{
+    content: '35%';
     height: 100%;
-    background-color: #3867d6;
+    background-color: #57606f;
     position: absolute;
     top: 0px;
     left: 0px;
-    animation: run5 1.5s  linear forwards;
+    animation: run5 2.7s  linear forwards;
+    color: #fff;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 40px;
 }
 @keyframes run5{
     0%{
@@ -1180,16 +1206,20 @@ our blog start
     }
 }
 .pogress .pogress-text .pogress-ber ul li:last-child{
-    border-color: #b232e9;
+    border-color: #ffb8b8;
 }
 .pogress .pogress-text .pogress-ber ul li:last-child::before{
-    content: '';
+    content: '65%';
     height: 100%;
-    background-color: #8d44ade0;
+    background-color: #ffb8b8;
     position: absolute;
     top: 0px;
     left: 0px;
-    animation: run6 1.5s linear forwards;
+    animation: run6 2.7s linear forwards;
+    color: #fff;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 40px;
 }
 @keyframes run6{
     0%{
